@@ -1,0 +1,12 @@
+EVCycle R2 offline software benchmark
+============================================
+
+Internal controls are regression signals, not accuracy baselines.
+
+                          avg_speed_kmh            max_speed_kmh            idle_fraction           speed_std_kmh            total_distance_km            duration_s             
+                                   mean        std          mean        std          mean       std          mean        std              mean        std       mean          std
+method                                                                                                                                                                           
+EVCycle                       39.730470  17.802622        67.062  17.782164      0.304689  0.146935     27.545784   9.179994         36.703534  48.459415     2976.2  2636.697688
+perturbed_profile_control     56.266000  19.732110       113.592  14.060395      0.291133  0.018401     42.048000  11.721850         52.032714  64.895950     2976.2  2636.697688
+speed_state_control           54.113434  17.921583       119.880   0.000000      0.359101  0.022507     48.811100  10.494471         49.202912  59.784303     2976.2  2636.697688
+stop_cruise_control           56.184000  20.283694       108.308  25.875779      0.215236  0.037197     39.464000  10.998883         52.585679  66.810644     2976.2  2636.697688

@@ -1,0 +1,42 @@
+version: 1
+seed: 42
+
+monte_carlo:
+  realizations: 500
+  independent_inputs: true
+  inputs:
+    departure_offset_min:
+      distribution: uniform
+      lower: -30.0
+      upper: 30.0
+    elevation_offset_m:
+      distribution: uniform
+      lower: -5.0
+      upper: 5.0
+      interpretation: spatially_correlated_error_amplitude
+    traffic_scale:
+      distribution: uniform
+      lower: 0.8
+      upper: 1.2
+  outputs:
+    - mean_speed_kmh
+    - idle_fraction
+    - energy_proxy
+
+sobol_jansen:
+  base_samples: 1000
+  second_order: false
+  model_evaluations: 4000
+  independent_inputs: true
+  inputs:
+    traffic_scale:
+      distribution: uniform
+      lower: 0.5
+      upper: 1.5
+    grade_coefficient:
+      distribution: uniform
+      lower: 0.5
+      upper: 1.5
+  outputs:
+    - mean_speed_kmh
+    - energy_proxy

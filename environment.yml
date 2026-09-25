@@ -1,0 +1,12 @@
+name: evcycle
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - click>=8.1
+  - matplotlib>=3.7
+  - numpy>=1.24
+  - pandas>=1.5
+  - requests>=2.31
+  - scipy>=1.10
+  - pip
