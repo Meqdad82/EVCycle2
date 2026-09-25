@@ -49,9 +49,9 @@ dev = [
 evcycle = "evcycle.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/Meqdad82/evcycle"
-Repository = "https://github.com/Meqdad82/evcycle"
-Issues = "https://github.com/Meqdad82/evcycle/issues"
+Homepage = "https://github.com/Meqdad82/EVCycle2"
+Repository = "https://github.com/Meqdad82/EVCycle2"
+Issues = "https://github.com/Meqdad82/EVCycle2/issues"
 
 [tool.setuptools.packages.find]
 include = ["evcycle*"]

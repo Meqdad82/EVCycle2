@@ -7,8 +7,8 @@ clone. Do not copy this parent folder as an extra nested directory; pyproject.to
 must remain at the repository root.
 
 ~~~bash
-git clone https://github.com/Meqdad82/evcycle.git
-cd evcycle
+git clone https://github.com/Meqdad82/EVCycle2.git
+cd EVCycle2
 
 # Copy all files from "EVCycle GitHub R2" into this directory.
 # Then remove the obsolete binary archive:

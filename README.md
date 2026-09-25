@@ -1,5 +1,7 @@
 # EVCycle
 
+Repository: https://github.com/Meqdad82/EVCycle2
+
 EVCycle is an MIT-licensed Python package for producing one-second electric-
 vehicle speed and grade profiles from a route description. The package is
 intended for simulation-input preparation, teaching, software regression
